@@ -197,7 +197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   rb: {fileID: 39359053}
-  audio: {fileID: 39359060}
+  audio: {fileID: 0}
 --- !u!82 &39359060
 AudioSource:
   m_ObjectHideFlags: 0
@@ -209,7 +209,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: e3f960ef36b034061bec9aaad9cb66e6, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -992,10 +992,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb9052183dcd4cdb9ac772edbd102ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 1427459298}
-  nextSpawnTime: 0
-  spawnInterval: 2
-  speed: 0
 --- !u!4 &1506170109
 Transform:
   m_ObjectHideFlags: 0
@@ -1110,10 +1106,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb9052183dcd4cdb9ac772edbd102ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  nextSpawnTime: 0
-  spawnInterval: 0
-  speed: 0
 --- !u!114 &1658810253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1126,10 +1118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb9052183dcd4cdb9ac772edbd102ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  nextSpawnTime: 0
-  spawnInterval: 0
-  speed: 0
 --- !u!114 &1658810254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1142,10 +1130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8eb9052183dcd4cdb9ac772edbd102ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 0}
-  nextSpawnTime: 0
-  spawnInterval: 0
-  speed: 0
 --- !u!1 &1953825193
 GameObject:
   m_ObjectHideFlags: 0
