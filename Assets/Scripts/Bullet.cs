@@ -11,11 +11,8 @@ public class Bullet : MonoBehaviour
         transform.position += Vector3.right * speed * Time.deltaTime;
 
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Asteroid"))
-        {
-            Destroy(gameObject);
-        }
+        Destroy(gameObject);
     }
 }
