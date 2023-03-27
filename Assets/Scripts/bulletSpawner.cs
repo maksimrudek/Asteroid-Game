@@ -46,7 +46,7 @@ public class bulletSpawner : MonoBehaviour
         var pos = transform.position;
         pos.z = transform.position.z;
         pos.x = transform.position.x + 1;
-        var rot = Quaternion.Euler(new Vector3(0, 0, -90));
+        var rot = Quaternion.Euler(new Vector3(0, 90, -90));
 
         Instantiate(prefab, pos, rot);
 

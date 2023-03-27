@@ -2,12 +2,11 @@ using System;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-public class Spawner : MonoBehaviour
+public class asteroidSpawner : MonoBehaviour
 {
     public GameObject prefab;
     public float nextSpawnTime;
     public float spawnInterval;
-    public float speed;
 
 
     private void Start()
@@ -32,9 +31,8 @@ public class Spawner : MonoBehaviour
     void Spawn()
     {
         var pos = transform.position;
-        pos.y = Random.Range(-4.5f, 4.5f);
+        pos.y = Random.Range(-3f, 3f);
         var rot = Quaternion.Euler(0, 0, 0);
-        speed = Random.Range(-3f, 3f);
 
         Instantiate(prefab, pos, rot);
     }
