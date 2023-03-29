@@ -40,6 +40,6 @@ public class Movement : MonoBehaviour
     }
         private void OnCollisionEnter2D(Collision2D col)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
 }
